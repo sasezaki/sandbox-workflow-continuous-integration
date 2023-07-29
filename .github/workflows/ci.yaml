@@ -1,0 +1,12 @@
+# In a package repository, in the file .github/workflows/continuous-integration.yml:
+name: "Continuous Integration"
+
+on:
+  pull_request:
+  push:
+    branches:
+    tags:
+
+jobs:
+  ci:
+    uses: laminas/workflow-continuous-integration/.github/workflows/continuous-integration.yml@1.x

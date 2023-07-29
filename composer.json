@@ -1,0 +1,17 @@
+{
+    "name": "sasezaki/sandbox-laminas-ci-matrix",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sandbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sasezaki",
+            "email": "sasezaki@gmail.com"
+        }
+    ],
+    "require": {}
+}
